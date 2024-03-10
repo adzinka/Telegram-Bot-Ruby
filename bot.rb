@@ -5,7 +5,7 @@ require 'json'
 json = File.read('inform.json')
 jil = JSON.parse(json)
 
-token = '1023315126:AAEYVwxCPus5d0c6YBmkkTO9C6p1ibC0xXY'
+token = ''
 
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
